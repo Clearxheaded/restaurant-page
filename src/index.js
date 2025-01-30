@@ -33,3 +33,13 @@ aboutUsButton.addEventListener("click", () => {
 window.onload = () => {
     loadHome();
 }
+
+function handleImageLoad() {
+    document.querySelectorAll('img').forEach(img => {
+        img.addEventListener('load', function () {
+            this.classList.add('loaded');
+        });
+    });
+}
+
+window.addEventListener('DOMContentLoaded', handleImageLoad);

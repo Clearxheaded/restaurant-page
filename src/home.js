@@ -9,7 +9,7 @@ export default function loadHome() {
 
     const image = document.createElement("img");
     image.classList.add("restaurant-image");
-    image.src = "https://via.placeholder.com/400";
+    image.src = "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop";
     image.alt = "Restaurant image";
 
     const description = document.createElement("p");

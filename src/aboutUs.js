@@ -19,7 +19,7 @@ export default function loadAboutUs() {
 
     const image = document.createElement("img");
     image.classList.add("about-us-image");
-    image.src = "https://via.placeholder.com/600";
+    image.src = "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=600&fit=crop";
     image.alt = "About Us image";
 
     aboutUsDiv.appendChild(headline);
