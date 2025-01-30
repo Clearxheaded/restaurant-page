@@ -1,1 +1,3 @@
-alert;
+import loadHome from "./home";
+
+loadHome();
