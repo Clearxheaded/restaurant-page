@@ -1,6 +1,7 @@
 export default function loadMenu() {
 
     const contentDiv = document.querySelector("#content");
+    contentDiv.innerHTML = "";
 
     const menuDiv = document.createElement("div"); // this will contain the entire menu content
     menuDiv.classList.add("menu-container");
